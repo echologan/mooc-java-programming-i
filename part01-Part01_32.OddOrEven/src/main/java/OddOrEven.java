@@ -6,6 +6,18 @@ public class OddOrEven {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
 
+        System.out.println("Give a number:");
+
+        int n1 = scan.nextInt();
+            //if the number 'n1' is divisible by 2, no remainder, thus even 
+            if (n1 % 2 == 0) {
+                System.out.println("Number " + n1 + " is even.");
+            } else {
+                System.out.println("Number " + n1 + " is odd.");
+            }
+
+        
+
         // Write your program here 
         // HINT:
         // You can find out if a number is even or odd easily using the modulo operator %
