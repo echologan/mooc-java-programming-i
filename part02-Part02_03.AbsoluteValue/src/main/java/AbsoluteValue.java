@@ -12,7 +12,7 @@ public class AbsoluteValue {
             System.out.println(usrInt * -1);
         } else {
             System.out.println(usrInt);
-            System.out.println("f");
+           
         }
 
     }
