@@ -10,11 +10,11 @@ public class OddOrEven {
 
         int n1 = scan.nextInt();
             //if the number 'n1' is divisible by 2, no remainder, thus even 
-            if (n1 % 2 == 0) {
-                System.out.println("Number " + n1 + " is even.");
-            } else {
-                System.out.println("Number " + n1 + " is odd.");
-            }
+        if (n1 % 2 == 0) {
+            System.out.println("Number " + n1 + " is even.");
+        } else {
+            System.out.println("Number " + n1 + " is odd.");
+        }
 
         
 

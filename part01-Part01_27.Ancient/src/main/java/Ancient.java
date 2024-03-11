@@ -10,8 +10,8 @@ public class Ancient {
 
         System.out.println("Give a year:");
         int n1 = Integer.valueOf(scan.nextLine());
-            if (n1 < 2015) {
-                System.out.println("Ancient history!");
-            }
+        if (n1 < 2015) {
+            System.out.println("Ancient history!");
+        }
     }
 }

@@ -10,8 +10,8 @@ public class Orwell {
         
         System.out.println("Give a number:");
         int n1 = Integer.valueOf(scan.nextLine());
-            if (n1 == 1984) {
-                System.out.println("Orwell");
-            }
+        if (n1 == 1984) {
+            System.out.println("Orwell");
+        }
     }
 }
