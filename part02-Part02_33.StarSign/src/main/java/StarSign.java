@@ -21,14 +21,16 @@ public class StarSign {
     public static void printStars(int number) {
         // first part of the exercise
         for(int i = 0; i < number; i++) {
-            System.out.println("*");
+            System.out.print("*");
         }
-
         System.out.println("");
     }
 
     public static void printSquare(int size) {
         // second part of the exercise
+        for(int i = 0; i < size; i++) {
+            printStars(size);
+        }
     }
 
     public static void printRectangle(int width, int height) {
