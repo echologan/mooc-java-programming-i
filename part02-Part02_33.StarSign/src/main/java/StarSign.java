@@ -35,6 +35,9 @@ public class StarSign {
 
     public static void printRectangle(int width, int height) {
         // third part of the exercise
+        for(int i = 0; i < height; i++) {
+            printStars(width);
+        }
     }
 
     public static void printTriangle(int size) {
