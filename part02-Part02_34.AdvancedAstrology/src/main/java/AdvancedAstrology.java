@@ -19,7 +19,7 @@ public class AdvancedAstrology {
     public static void printTriangle(int size) {
         // part 2 of the exercise
         for(int i = 1; i <= size; i++) {
-            printSpaces(size - 1);
+            printSpaces(size - i);
             printStars(i);
         }
 
