@@ -19,6 +19,5 @@ public class ListSize {
         }
         listSize = list.size();
         System.out.println(listSize);
-        System.out.println("testing");
     }
 }
