@@ -25,9 +25,10 @@ public class Swap {
         System.out.println("Give two indices to swap: ");
         int position1 = Integer.valueOf(scanner.nextLine());
         int position2 = Integer.valueOf(scanner.nextLine());
-        int helper = array[position1];
-        array[position1] = array[position2];
-        array[position2] = helper;
+        // Now input captured we use them as indexes to swap the values in array
+        int helper = array[position1]; // assigning first input to variable
+        array[position1] = array[position2]; // assigning second input to first position
+        array[position2] = helper; // assigning variable with first input to second position
 
         System.out.println("");
         index = 0;
