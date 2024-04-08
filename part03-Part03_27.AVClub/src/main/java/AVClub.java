@@ -12,7 +12,6 @@ public class AVClub {
                 break;
             }
 
-            //testing
             String[] arrayWords = userInput.split(" ");
 
             for(String word : arrayWords) {

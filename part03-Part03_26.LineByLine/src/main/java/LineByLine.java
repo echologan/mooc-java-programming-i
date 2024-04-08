@@ -8,17 +8,19 @@ public class LineByLine {
         String[] arrayWords;
 
         while (true) {
+            // if input is blank break out of loop
             String input = scanner.nextLine();
             if (input.equals("")) {
                 break;
             }
+            // taking input from scanner and splitting spaces from input
             arrayWords = input.split(" ");
 
             for (String word : arrayWords) {
                 System.out.println(word);
             }
         } // closing while
-        
+
     } // closing main
 
 } // closing class
