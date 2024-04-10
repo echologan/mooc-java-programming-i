@@ -7,6 +7,7 @@ public class PersonalDetails {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
+        // variables outside loop
         int nameLength = 0;
         int longerName = 0;
         String name = "filler";
